@@ -1,0 +1,25 @@
+{
+  "name": "csa-exam-question-and-answer-node.js-",
+  "version": "1.0.0",
+  "description": "csa exam question",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABENI03/CSA-Exam-Question-And-Answer-node.js-.git"
+  },
+  "author": "Abnezer Anbessie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABENI03/CSA-Exam-Question-And-Answer-node.js-/issues"
+  },
+  "homepage": "https://github.com/ABENI03/CSA-Exam-Question-And-Answer-node.js-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "xlsx": "^0.18.5"
+  }
+}
