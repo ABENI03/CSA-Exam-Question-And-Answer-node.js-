@@ -6,7 +6,7 @@ const excelReader=require('xlsx')
 
 const app=express()
 
-const whitelist = ["http://localhost:3000","https://blog-front-end.herokuapp.com"]
+const whitelist = ["http://localhost:3000","https://csa-exam.onrender.com"]
 const corsOptions = {
           origin: function (origin, callback) {
             if (!origin || whitelist.indexOf(origin) !== -1) {
